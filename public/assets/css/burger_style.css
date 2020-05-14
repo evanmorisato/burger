@@ -1,0 +1,24 @@
+.jumbotron {
+    background-color: blanchedalmond;
+    font-family: 'Monoton', cursive;
+}
+
+#notDev {
+    background-color: blanchedalmond;
+}
+
+#devBurg {
+    background-color: blanchedalmond;
+}
+
+body {
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/b9a03de4-cb99-479f-b2bc-7b1613e15339/dq6gct-a71c7518-7758-4047-9cb3-41c42507689c.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvYjlhMDNkZTQtY2I5OS00NzlmLWIyYmMtN2IxNjEzZTE1MzM5XC9kcTZnY3QtYTcxYzc1MTgtNzc1OC00MDQ3LTljYjMtNDFjNDI1MDc2ODljLmpwZyJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTpmaWxlLmRvd25sb2FkIl19.4Q98aatF10S7XfUc_v7LLND0mpKZZfXVJr3jW6ILzLc) ;
+}
+
+h2 {
+    font-family: 'Press Start 2P', cursive;
+}
+
+p {
+    font-family: 'Shrikhand', cursive;
+}

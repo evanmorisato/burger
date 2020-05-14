@@ -1,21 +1,26 @@
 var express = require("express");
+var exphbs = require("express-handlebars");
+var bodyParser = require("body-parser");
+var methodOverride = require("method-override");
 
-var PORT = process.env.PORT || 3000;
 
 var app = express();
+var PORT = process.env.PORT || 3000;
 
 app.use(express.static("public"));
 
-app.use(express.urlencoded({ extended: true}));
-app.use(express.json());
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.text());
+app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 
-var exphbs = require("express-handlebars");
+app.use(methodOverride("_method"));
 
 app.engine("handlebars", exphbs({defaultLayout: "main"}));
 app.set("view engine", "handlebars");
 
-var routes = require('./controllers/burgers_controller');
 
+var routes = require('./controllers/burgers_controller');
 app.use('/', routes);
 
 // Start our server so that it can begin listening to client requests.
