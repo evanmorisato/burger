@@ -3,17 +3,20 @@
 
 ## Table of contents
   * [Live](#live)
+  * [Screenshots](#screenshots)
   * [About this project](#about-this-project)
   * [Getting started](#getting-started)
   * [Structure of the project](#structure-of-project)
-  * [Screenshots](#screenshots)
   * [Technologies used to create app](#technologies-used)
   	* [Backend technologies](#Backend)
   	* [Frontend technologies](#Frontend)
   * [Design improvements](#design-improvements)
 
 ## <a name="live"></a>Live
-https://gentle-caverns-56054.herokuapp.com/
+https://burgerevan.herokuapp.com/
+
+## <a name="screenshots"></a> Screenshots
+![Main Screen](https://github.com/evanmorisato/burger/blob/master/public/assets/img/eatdaburger.PNG?raw=true)
 
 ## <a name="about-this-project"></a> About this project
 
@@ -207,10 +210,6 @@ node server.js
 </pre>
 <img src="readme_images/start_server.png">
 <p>To verify that the server has started and the application is working locally on your computer, open Chrome and go to <a href="http://localhost:3000">http://localhost:3000</a>.</p>
-
-## <a name="screenshots"></a> Screenshots
-
-![Main Screen](https://github.com/evanmorisato/burger/blob/master/public/assets/img/eatdaburger.PNG?raw=true)
 
 ## <a name="technologies-used"></a> Technologies used to build app
 * [Backend technologies](#Backend)
