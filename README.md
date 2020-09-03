@@ -208,7 +208,6 @@ MYSQL_PASSWORD='<i>mysql_password</i>'
 <pre>
 node server.js
 </pre>
-<img src="readme_images/start_server.png">
 <p>To verify that the server has started and the application is working locally on your computer, open Chrome and go to <a href="http://localhost:3000">http://localhost:3000</a>.</p>
 
 ## <a name="technologies-used"></a> Technologies used to build app
