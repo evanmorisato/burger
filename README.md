@@ -168,8 +168,6 @@ To set up a development database that you can use with this application, perform
 
   INSERT INTO burgers (burger_name, devoured) VALUES ("bacon cheeseburger", FALSE);
   </pre>
-  <p>Your table should look similar to the following example:</p>
-  <img src="readme_images/burgers_table.png">
   
 </li>
 </ol>
