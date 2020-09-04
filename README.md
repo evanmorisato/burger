@@ -1,5 +1,5 @@
 # Eat Da Burger!
-<p>A full stack, MVC (Model-View-Controller) application that allows you to create burgers (POST), view a list of burgers available to eat (GET), devour burgers (PUT), and throw them away after devoured (DELETE).</p>https://github.com/evanmorisato/burger/watchers
+<p>A full stack, MVC (Model-View-Controller) application that allows you to create burgers (POST), view a list of burgers available to eat (GET), devour burgers (PUT), and throw them away after devoured (DELETE).</p>
 
 ## Table of contents
   * [Live](#live)
